@@ -1,6 +1,6 @@
 Vagrant::Config.run do |config|
 
-  config.vm.box = "ubuntu12"
+  config.vm.box = "precise64"
 
   # Assign this VM to a host only network IP, allowing you to access it
   # via the IP.
